@@ -1,0 +1,89 @@
+/* lea Cohen
+   MMART 167
+   September 24, 2015 */
+
+
+@font-face {
+    font-family: greenpilloww;
+    src: url(greenpil.ttf);
+}
+
+div {
+  border-top: 1px solid black;
+  border-right: 4px solid gray;
+  border-bottom: 4px solid gray;
+  border-left: 1px solid black;
+  margin: 1px;
+  top: 20px;
+  left: 0px;
+  position: relative;
+  background-color: yellow;
+  display: inline;
+  float: left;
+  border-radius: 15px;
+
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+span {
+  font-size: 9em;
+  text-align: center;
+  font-family: greenpilloww;
+  padding: 6px;
+
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+section:hover span {
+  color: #D8D8D8;
+  font-size: 16em;
+}
+
+section:hover div {
+  left: 100px;
+  border: 3px dashed black;
+  border-radius: 0;
+}
+
+section:hover div#one {
+  background-color: red;
+  -webkit-transform: rotate(7deg) translateY(20px);
+  -moz-transform: rotate(7deg) translateY(20px);
+  transform: rotate(7deg) translateY(20px);
+}
+
+section:hover div#two {
+  background-color: orange;
+  -webkit-transform: rotate(-10deg) translateY(-20px);
+  -moz-transform: rotate(-10deg) translateY(-20px);
+  transform: rotate(-10deg) translateY(-20px);
+}
+
+section:hover div#three {
+  background-color: yellow;
+  -webkit-transform: rotate(3deg) translateY(5px);
+  -moz-transform: rotate(3deg) translateY(5px);
+  transform: rotate(3deg) translateY(5px);
+}
+
+section:hover div#four {
+  background-color: green;
+  -webkit-transform: rotate(-360deg) translateY(-10px);
+  -moz-transform: rotate(-360deg) translateY(-10px);
+  transform: rotate(-360deg) translateY(-10px);
+}
+
+section:hover div#five {
+  background-color: blue;
+  -webkit-transform: rotate(17deg) translateY(50px);
+  -moz-transform: rotate(17deg) translateY(50px);
+  transform: rotate(17deg) translateY(50px);
+}
+
+h2 {
+  float: left;
+  text-align: center;
+  display: inline;
+}
